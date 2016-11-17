@@ -1,0 +1,60 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.blue {
+	background: #3fb4ff;
+	height: 10vh;
+	margin: 1%;
+}
+.green {
+	background:#009245;
+	height: 90vh;
+	float: left;
+	width: 22%;
+	margin:1%;
+}
+.red {
+	background:#d41440;
+	height: 90vh;
+	float: left;
+	width: 54%;
+	margin: 1%;
+}
+.orange{
+	background: #f1861e;
+	height: 90vh;
+	float: left;
+	width: 18%;
+	margin: 1%;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .green {
+  	width: 98%;
+  	height: 10vh;
+  }
+  .red {
+  	height: 60vh;
+  	width: 98%;
+  }
+  .orange {
+  	height: 10vh;
+  	width: 98%;
+  }
+}
+  @media (min-width: 768px) and (max-width: 991px) 
+  {
+  	.green {
+  	width: 98%;
+  	height: 30vh;
+  	}
+  	.red {
+  	height: 90vh;
+  	width: 53%;
+  	}
+  	.orange {
+  	height: 90vh;
+  	width: 43%;
+  	}
+
+  }
