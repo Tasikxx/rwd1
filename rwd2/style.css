@@ -1,0 +1,51 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html,body
+{
+	height: 100%;
+	display: flex;
+	background: #d3d3d3;
+	color: #b7b7b7;
+	align-items: center;
+	justify-content: center;
+}
+h1{
+	text-align: center;
+	font-size: 400%;
+}
+@media (max-width: 767px)
+{
+	.tablet 
+	{
+		display: none;
+
+	}
+	.large 
+	{
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px)
+{
+	.device {
+		display: none;
+	}
+	.large 
+	{
+		display: none;
+	}
+}	
+
+@media (min-width: 1024px) {
+	.device {
+		display: none;
+	}
+	.tablet 
+	{
+		display: none;
+	}
+}
