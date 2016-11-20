@@ -2,48 +2,52 @@
 	margin: 0px;
 	padding: 0px;
 }
+body
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .blue {
 	background: #3fb4ff;
 	height: 10vh;
-  margin:7px;
+  margin: 7px;
 }
 .green {
 	background:#009245;
 	height: 90vh;
 	float: left;
-	width: 22%;
+	width: 22.1%;
 	margin: 7px;
 }
 .red {
 	background:#d41440;
 	height: 90vh;
 	float: left;
-	width: 54%;
 	margin: 7px;
 }
 .orange{
 	background: #f1861e;
 	height: 90vh;
 	float: left;
-	width: 20.6%;
 	margin: 7px;
 }
 @media (max-width: 767px) {
   .blue
   {
-    width: 98%;
+    width: 97%;
   }
   .green {
-  	width: 98%;
+  	width: 97%;
   	height: 10vh;
   }
   .red {
   	height: 60vh;
-  	width: 98%;
+  	width: 97%;
   }
   .orange {
   	height: 10vh;
-  	width: 98%;
+  	width: 97%;
   }
 }
   @media (min-width: 768px) and (max-width: 991px) 
@@ -66,3 +70,18 @@
   	}
 
   }
+  @media (min-width: 992px)
+{
+  .blue
+  {
+    width: 98.5%;
+  }
+  .red {
+    height: 90vh;
+    width: 50%;
+    }
+    .orange {
+    height: 90vh;
+    width: 23.6%;
+    }
+}
