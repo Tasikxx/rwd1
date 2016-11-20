@@ -5,28 +5,28 @@
 .blue {
 	background: #3fb4ff;
 	height: 10vh;
-	margin: 8px;
+	margin: 11px;
 }
 .green {
 	background:#009245;
 	height: 90vh;
 	float: left;
 	width: 22%;
-	margin: 8px;
+	margin: 11px;
 }
 .red {
 	background:#d41440;
 	height: 90vh;
 	float: left;
-	width: 54%;
-	margin: 8px;
+	width: 53%;
+	margin: 10px;
 }
 .orange{
 	background: #f1861e;
 	height: 90vh;
 	float: left;
 	width: 20%;
-	margin: 8px;
+	margin: 10px;
 }
 @media (min-width: 0px) and (max-width: 767px) {
   .green {
@@ -42,7 +42,7 @@
   	width: 98%;
   }
 }
-  @media (min-width: 768px) and (max-width: 991px) 
+ @media (min-width: 768px) and (max-width: 1023px) 
   {
   	.green {
   	width: 98%;
@@ -54,7 +54,7 @@
   	}
   	.orange {
   	height: 90vh;
-  	width: 43%;
+  	width: 41%;
   	}
 
   }
