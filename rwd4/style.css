@@ -1,0 +1,78 @@
+
+.header, 
+.title, 
+.main, 
+.footer {
+	padding-top: 1%;
+}
+.logoinfo {
+	background: #38c8fe;
+	height: 15vh;
+}
+.headerinfo {
+ background: #ffaf47;
+ height: 15vh;
+}
+.titleinfo
+{
+	background-color: #ff7747;
+	height: 45vh;
+}
+.maininfo
+{
+	background: #ffd647;
+	height: 30vh;
+}
+.footerinfo
+{
+	background: #fdc1ff;
+	height: 10vh;
+}
+
+@media (max-width: 767px) {
+	.logo {
+		padding-right: 1%;
+	}
+	.logoh {
+		padding-left: 1%;
+	}
+	.maininfo {
+		margin: 1% 0;
+	}
+	.logoinfo {
+		height: 9vh;
+	}
+	.headerinfo {
+		height: 9vh;
+	}
+	.titleinfo {
+		height: 35vh;
+	}
+	.maininfo  {
+		height: 16vh;
+	}
+	.footerinfo {
+	 display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px)
+{
+	.logo {
+		padding-right: 1%;
+	}
+	.logoh {
+		padding-left: 1%;
+	}
+	.maininfo {
+		height: 40vh;
+	}
+
+}
+
+@media (min-width: 1024px)
+{
+	.footerinfo {
+	 display: none;
+	}
+}
