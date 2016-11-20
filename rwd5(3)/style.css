@@ -1,0 +1,14 @@
+
+[role=navigation] > span a:not([href^=mailto]) {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+div div a + p + p {
+	font-size: 40px;
+}
+
+div div p:nth-child(3) {
+	background-color: purple;
+}
+
