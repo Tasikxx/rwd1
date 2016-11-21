@@ -3,7 +3,7 @@
 .title, 
 .main, 
 .footer {
-	padding-top: 1%;
+	padding-top: 10px;
 }
 .logoinfo {
 	background: #38c8fe;
@@ -29,50 +29,9 @@
 	height: 10vh;
 }
 
-@media (max-width: 767px) {
-	.logo {
-		padding-right: 1%;
-	}
-	.logoh {
-		padding-left: 1%;
-	}
-	.maininfo {
-		margin: 1% 0;
-	}
-	.logoinfo {
-		height: 9vh;
-	}
-	.headerinfo {
-		height: 9vh;
-	}
-	.titleinfo {
-		height: 35vh;
-	}
-	.maininfo  {
-		height: 16vh;
-	}
-	.footerinfo {
-	 display: none;
-	}
-}
+@media(min-width:1200px) {
 
-@media (min-width: 768px) and (max-width: 1023px)
-{
-	.logo {
-		padding-right: 1%;
-	}
-	.logoh {
-		padding-left: 1%;
-	}
-	.maininfo {
-		height: 40vh;
-	}
-
-}
-
-@media (min-width: 1024px)
-{
-	.footerinfo {
-	 display: none;
+	.footer {
+		display: none;
 	}
 }
