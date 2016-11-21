@@ -6,6 +6,7 @@
 
 div div a + p + p {
 	font-size: 40px;
+	background-color: purple;
 }
 
 div div p:nth-child(3) {
