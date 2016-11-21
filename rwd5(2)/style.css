@@ -3,7 +3,8 @@ body
 display: flex;
 justify-content: center;
 }
-.icon {
-	content: url(http://cursor.education/img/icons/collegesuccess-300px.png);
 
+.icon-logo:before {
+    content: url("http://cursor.education/img/icons/collegesuccess-300px.png");
 }
+
