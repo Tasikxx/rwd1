@@ -28,10 +28,3 @@
 	background: #fdc1ff;
 	height: 10vh;
 }
-
-@media(min-width:1200px) {
-
-	.footer {
-		display: none;
-	}
-}
